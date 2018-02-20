@@ -9,6 +9,6 @@ class Shoe
     @brand
   end
 
-  def color
+  def attr_accessors
     attr_accessor(:color, :size, :material, :condition)
 end
